@@ -1,0 +1,50 @@
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+
+
+
+.hero{
+    height: 87vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.heroHeading{
+    font-family: 'Dancing Script', cursive;
+    padding-top: 100px;
+}
+
+
+.Twocards{
+    background-color: #222831;
+}
+.divImg{
+    border-radius: 5px;
+    border-color: #ffbe33;
+}
+.text-div{
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+
+
+.categoriesHeading{
+    font-family: 'Dancing Script', cursive;
+}
+.FourCardImg{
+    background: #f1f2f3;
+}
+.FourCardBody{
+    background-color: #222831;
+    padding: 25px;
+}
+.FourCardTitle{
+    font-family: 'Dancing Script', cursive;
+}
