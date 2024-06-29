@@ -2,6 +2,8 @@ import React from 'react'
 import Hero from '../Components/Hero'
 import TwoCards from '../Components/TwoCards'
 import Categories from '../Components/Categories'
+import Allproducts from '../Components/Products'
+
 
 
 const Home = () => {
@@ -10,6 +12,7 @@ const Home = () => {
       <Hero />
       <TwoCards />
       <Categories />
+      <Allproducts />
     </>
     
   )

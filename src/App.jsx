@@ -9,6 +9,11 @@ import Navbar from  './Components/Navbar'
 //Pages
 import Home from './Pages/Home'
 import Allproducts from './Pages/Allproducts';
+import ProductDetail from './Pages/ProductDetail';
+import Dashboard from './Pages/Dashboard';
+import EditProduct from './Pages/EditProduct';
+import AddProduct from './Pages/AddProduct';
+
 
 
 function App() {
@@ -25,7 +30,11 @@ function App() {
       <Routes>
 
         <Route path='/' element={<Home />} />
-        <Route path='/all-products'  element={<Allproducts/>}/>
+        <Route path='/all-products/:id?'  element={<Allproducts/>}/>
+        <Route path='/product-detail/:id' element={<ProductDetail />} />
+        <Route path='/dashboard' element={<Dashboard />} />
+        <Route path='/edit/:id' element={<EditProduct />} />
+        <Route path='/add' element={<AddProduct />} />
 
       </Routes>
 

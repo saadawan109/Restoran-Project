@@ -1,3 +1,6 @@
+body {
+    overflow-x: hidden;
+}
 .navbar-brand {
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
@@ -48,3 +51,6 @@
 .FourCardTitle{
     font-family: 'Dancing Script', cursive;
 }
+
+
+

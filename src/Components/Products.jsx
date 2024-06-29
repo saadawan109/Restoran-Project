@@ -10,19 +10,13 @@ const Allproducts = () => {
 
     const [getCategories, setGetCategories] = useState([])
 
-    const params = useParams()
+    // const params = useParams()
 
     useEffect(() => {
 
       // Categories == All Products (url)
 
-      let url = ('https://6666db46a2f8516ff7a54492.mockapi.io/Categories')
-
-      if (params.id){
-        url = `${url}?category=${params.id}`
-      }
-
-        axios.get(url).then((res) => {
+        axios.get('https://6666db46a2f8516ff7a54492.mockapi.io/Categories?limit=4&page=1').then((res) => {
             setGetCategories(res.data);
         }).catch((err) => {
             console.log(err);
@@ -36,7 +30,7 @@ const Allproducts = () => {
     return (
         <>
 
-            <section className="categories_section">
+            <section className="categories_section mt-5">
 
                 <div className="container">
                     <h1 className="categoriesHeading text-center py-5">All Products</h1>
@@ -70,7 +64,14 @@ const Allproducts = () => {
 
                             })
                         }
+
+                        
                     </div>
+                    <div className="text-center mt-5">
+
+                        <Link to="/all-products">All Products</Link>
+                    </div>
+                    
                 </div>
 
             </section>

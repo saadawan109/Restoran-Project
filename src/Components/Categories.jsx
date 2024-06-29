@@ -33,24 +33,24 @@ const Categories = () => {
 
                     <div className="row">
                         {
-                            getCategories.map((product, index) => {
+                            getCategories.map((category, index) => {
                                 return (
                                     <>
                                         <div className="col-md-3" key={index}>
 
 
-                                            <a href="#" className="text-decoration-none">
-                                                <div className="card border-0" data-aos="flip-up" data-aos-duration="1000">
-                                                    <Link to={`/CategoriesRestoran/${product.id}`} />
-                                                    <img src={product.image} className="card-img-top FourCardImg p-5" style={{ height: 250 }} alt="..." />
+                                            <Link to={`/all-products/${category.id}`} className="text-decoration-none">
+                                                <div className="card border-0" data-aos="fade-up" data-aos-duration="1000">
+                                                    <Link to={`/CategoriesRestoran/${category.id}`} />
+                                                    <img src={category.image} className="card-img-top FourCardImg p-5" style={{ height: 250 }} alt="..." />
                                                     <div className="card-body FourCardBody">
-                                                        <h5 className="card-title FourCardTitle text-white">{product.title}</h5>
+                                                        <h5 className="card-title FourCardTitle text-white">{category.title}</h5>
                                                         <p className="card-text text-white">
-                                                            {product.desc}
+                                                            {category.desc}
                                                         </p>
                                                     </div>
                                                 </div>
-                                            </a>
+                                            </Link>
 
 
 
