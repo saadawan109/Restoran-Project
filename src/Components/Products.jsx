@@ -30,7 +30,7 @@ const Allproducts = () => {
     return (
         <>
 
-            <section className="categories_section mt-5">
+            <section className="categories_section my-5">
 
                 <div className="container">
                     <h1 className="categoriesHeading text-center py-5">All Products</h1>
@@ -69,7 +69,7 @@ const Allproducts = () => {
                     </div>
                     <div className="text-center mt-5">
 
-                        <Link to="/all-products">All Products</Link>
+                        <button className="btn btn-warning py-2 px-5 rounded-pill"><Link to="/all-products" className=" text-white text-decoration-none">All Products</Link></button>
                     </div>
                     
                 </div>

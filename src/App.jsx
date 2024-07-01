@@ -5,6 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import Navbar from  './Components/Navbar'
+import Footer from './Components/Footer'
 
 //Pages
 import Home from './Pages/Home'
@@ -13,6 +14,7 @@ import ProductDetail from './Pages/ProductDetail';
 import Dashboard from './Pages/Dashboard';
 import EditProduct from './Pages/EditProduct';
 import AddProduct from './Pages/AddProduct';
+
 
 
 
@@ -37,6 +39,9 @@ function App() {
         <Route path='/add' element={<AddProduct />} />
 
       </Routes>
+
+
+      <Footer />
 
 
     </>
