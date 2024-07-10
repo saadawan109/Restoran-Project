@@ -1,6 +1,7 @@
 body {
     overflow-x: hidden;
 }
+
 .navbar-brand {
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
@@ -11,26 +12,29 @@ body {
 
 
 
-.hero{
+.hero {
     height: 87vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
 }
-.heroHeading{
+
+.heroHeading {
     font-family: 'Dancing Script', cursive;
     padding-top: 100px;
 }
 
 
-.Twocards{
+.Twocards {
     background-color: #222831;
 }
-.divImg{
+
+.divImg {
     border-radius: 5px;
     border-color: #ffbe33;
 }
-.text-div{
+
+.text-div {
     font-family: 'Dancing Script', cursive;
 }
 
@@ -38,17 +42,20 @@ body {
 
 
 
-.categoriesHeading{
+.categoriesHeading {
     font-family: 'Dancing Script', cursive;
 }
-.FourCardImg{
+
+.FourCardImg {
     background: #f1f2f3;
 }
-.FourCardBody{
+
+.FourCardBody {
     background-color: #222831;
     padding: 25px;
 }
-.FourCardTitle{
+
+.FourCardTitle {
     font-family: 'Dancing Script', cursive;
 }
 
@@ -56,13 +63,15 @@ body {
 
 
 
-.about{
+.about {
     background-color: #222831;
 }
-.about-heading{
+
+.about-heading {
     font-family: 'Dancing Script', cursive;
 }
-.about-div{
+
+.about-div {
     height: 110vh;
 }
 
@@ -71,33 +80,56 @@ body {
 
 
 
-.review-div{
-    border:#ffbe33;
+.review-div {
+    border: #ffbe33;
     border-style: solid;
-  border-width: 2px;
+    border-width: 2px;
 }
-.review-heading{
+
+.review-heading {
     color: #222831;
     font-family: 'Dancing Script', cursive;
 }
-.ri-star-s-fill{
+
+.ri-star-s-fill {
     color: #ffbe33;
 }
 
 
+/* Product Detail*/
 
 
-.footer{
+
+.product-detail-card {
+    border: #ffbe33;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.card-4 {
+    background: #f1f2f3;
+}
+
+.card-8 {
     background-color: #222831;
 }
-.footer-heading{  
+
+
+
+.footer {
+    background-color: #222831;
+}
+
+.footer-heading {
     font-family: 'Dancing Script', cursive;
 }
-.footer-social{
+
+.footer-social {
     background-color: white;
     padding: 10px;
     border-radius: 50%;
 }
-.social-link{
+
+.social-link {
     color: #222831;
 }

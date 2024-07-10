@@ -38,18 +38,18 @@ const ProductDetail = () => {
                                 </div>
 
                             </div>
-                        ) : <div className="card mb-3" >
+                        ) : <div className="card mb-3 product-detail-card rounded-0">
                             <div className="row g-0">
-                                <div className="col-md-4">
+                                <div className="col-md-4 card-4">
                                     <img src={product.image} style={{ height: 300 }} className="img-fluid rounded-start p-4" alt="..." />
                                 </div>
                                 <div className="col-md-8">
-                                    <div className="card-body">
-                                        <h5 className="card-title">{product.title}</h5>
-                                        <p className="card-text">
-                                            {product.desc}
+                                    <div className="card-body card-8 p-5">
+                                        <h5 className="card-title text-white pb-4">{product.title}</h5>
+                                        <p className="card-text text-white py-4">
+                                            {product.description}
                                         </p>
-                                        <h4>{product.price}</h4>
+                                        <h4 className='text-white'>{product.price}</h4>
                                     </div>
                                 </div>
                             </div>
